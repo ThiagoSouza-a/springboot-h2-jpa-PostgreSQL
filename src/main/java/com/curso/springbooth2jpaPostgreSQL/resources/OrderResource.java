@@ -13,7 +13,7 @@ import com.curso.springbooth2jpaPostgreSQL.entities.Order;
 import com.curso.springbooth2jpaPostgreSQL.services.OrderService;
 
 @RestController
-@RequestMapping(value = "/orders/")
+@RequestMapping(value = "/orders")
 public class OrderResource {
 	
 	@Autowired
